@@ -49,3 +49,14 @@ html, body{
 img{
 	margin: 10px 0px;
 }
+@media screen and (max-width: 1200px){
+  .two{
+    display: none;
+  }
+  .icon{
+  	display: none;
+  }
+  .Profile{
+  	margin: 10px opx;
+  }
+}
