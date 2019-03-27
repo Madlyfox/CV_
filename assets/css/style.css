@@ -1,15 +1,72 @@
 html, body{
-	background-color: #F2E4C9;
+	background-image: url("https://images.wallpaperscraft.com/image/mountains_sky_clouds_beautiful_black_and_white_88041_1920x1080.jpg"); 
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
+	
+	 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .red{
 	
-	background-color: white;
+	background-color: #E8F1F8;
 	background-image: url("");
+	opacity: 0.86;
 
+
+}
+.lilshadow{
+	box-shadow: -15px 20px 30px;
+	margin: 10px 100px 10px;
+		/*background-color: #222F3F;
+		font-color: white;*/
+
+/*	border-radius: 10%;
+*/}
+	
+.lilshadow_2{
+	box-shadow: -15px 20px 30px;
+	margin: 10px 10px 10px;
+
+
+}
+
+.sidenav {
+  /*width: 130px;*/
+  /*position: fixed;*/
+  z-index: 1;
+/*  top: 20px;
+  left: 10px*/;
+  background: lightgrey;
+  overflow-x: hidden;
+  padding: 8px 0;
+  /*box-shadow: -50px 10px 0px;*/
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 .cv{
 	margin: 50px 50px;
@@ -46,6 +103,9 @@ html, body{
 .phone{
 	height:3em;
 }
+.linked{
+	height: 5em;
+}
 img{
 	margin: 10px 0px;
 }
@@ -57,6 +117,21 @@ img{
   	display: none;
   }
   .Profile{
-  	margin: 10px opx;
+  	margin: 10px 0px;
   }
+
+}
+@media screen and (max-width: 576px){
+	html{
+	font-size: 10px;
+}
+	.cv{
+	margin: 50px 50px;
+	box-shadow: -1px 5px 3px;
+	display:flex;
+	flex-direction: wrap;
+}
+article{
+	background-color: white;
+	box-shadow: 30%;
 }

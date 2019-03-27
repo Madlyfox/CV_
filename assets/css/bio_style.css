@@ -1,0 +1,86 @@
+html, body{
+	background-image: url("https://images.wallpaperscraft.com/image/mountains_sky_clouds_beautiful_black_and_white_88041_1920x1080.jpg"); 
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.red{
+	
+	background-color: #E8F1F8;
+	background-image: url("");
+	opacity: 0.86;
+	 
+
+}
+.cv{
+	margin: 50px 50px;
+	box-shadow: -30px 50px 30px;
+	display:flex;
+	flex-direction: wrap;
+
+}
+img{
+	width: : 400px;
+	height: 400px;
+	margin: 10px -20px 10px;
+	border-radius: 01%;
+}
+.sep{
+	width: 30%;
+}
+h1{
+	text-align: right;
+}
+.ph{
+	width: 80px;
+	height: 80px;
+}
+.st{
+
+	margin:1px 30px 1px;
+	width:75px;
+	height: 75px;
+	/*border-radius: 40%;*/
+}
+.htcs{
+	width: 120px;
+	height: 80px;
+
+}
+.ub{
+	margin:1px 30px 1px;
+	width: 70px;
+	height: 70px;
+}
+.off{
+/*	margin:1px 0px 1px;
+*/	width: 70px;
+	height: 70px;
+
+}
+.bstr{
+	/*margin:1px 1px 1px;*/
+	margin:1px 30px 1px;
+	width: 70px;
+	height: 70px;
+}
+/*.index{
+	box-shadow: 0px 10px 10px;
+
+}*/
+@media screen and (max-width: 1200px){
+	img{
+		display: none;
+	}
+	.red{
+		height: 100%;
+		width: 100%;
+	}
+}
