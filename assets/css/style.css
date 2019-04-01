@@ -2,30 +2,22 @@ html, body{
 	background-image: url("https://images.wallpaperscraft.com/image/mountains_sky_clouds_beautiful_black_and_white_88041_1920x1080.jpg"); 
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+
 
 .red{
 	
-	background-color: #E8F1F8;
+	background-color: white;
 	background-image: url("");
-	opacity: 0.86;
+	opacity: 0.8;
 }
-.lilshadow{
-	box-shadow: -15px 20px 30px;
-	margin: 10px 100px 10px;
-}
-	
-.lilshadow_2{
-	box-shadow: -15px 20px 30px;
-	margin: 10px 10px 10px;
-}
-
 .cv{
-	margin: 50px 50px;
+	
 	box-shadow: -30px 50px 30px;
 	display:flex;
 	flex-direction: wrap;
@@ -36,7 +28,7 @@ html, body{
 	height: 100%;
 	text-align: center;
 }	
-.Pp{
+.two{
 	border-radius: 50%;
 	margin:50px 10px;
 }
@@ -48,7 +40,7 @@ html, body{
 .main{
 	margin: 30px 10px;
 	text-align: right;
-
+	/*background-color: #EBE8E2;*/
 }
 .separator{
 	size: 3px;
@@ -79,15 +71,9 @@ img{
 }
 @media screen and (max-width: 576px){
 	html{
-	font-size: 10px;
+	
+	font-size: 8px;
+	text-align: left;
 }
-	.cv{
-	margin: 50px 50px;
-	box-shadow: -1px 5px 3px;
-	display:flex;
-	flex-direction: wrap;
-}
-article{
-	background-color: white;
-	box-shadow: 30%;
-}
+
+	
