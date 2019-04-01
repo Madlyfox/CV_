@@ -30,7 +30,7 @@ html, body{
 }	
 .two{
 	border-radius: 50%;
-	margin:50px 10px;
+	margin-top: 20px;
 }
 
 }
@@ -67,7 +67,9 @@ img{
   .Profile{
   	margin: 10px 0px;
   }
-
+.tb{
+	font-size: 8px;
+}
 }
 @media screen and (max-width: 576px){
 	html{
@@ -75,5 +77,9 @@ img{
 	font-size: 8px;
 	text-align: left;
 }
-
-	
+	h3{
+		font-size: 15px;
+	}	
+.persona{
+	display:none;
+}

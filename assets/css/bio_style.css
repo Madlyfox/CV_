@@ -2,10 +2,10 @@ html, body{
 	background-image: url("https://images.wallpaperscraft.com/image/mountains_sky_clouds_beautiful_black_and_white_88041_1920x1080.jpg"); 
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-  background-position: center;
-  background-repeat: no-repeat;
-  
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .red{
